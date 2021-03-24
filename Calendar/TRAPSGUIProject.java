@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class TRAPSGUIProject {
+public class SGUIProject {
     //07.20.20 need to change previous code for capacity [done]
     //improvements ideas: adding a search button by name
     //Jlabels
@@ -34,12 +34,12 @@ public class TRAPSGUIProject {
     private JTextArea events;
     private JLabel numberEvents;
     //
-    TRAPSCalendar calendar = new TRAPSCalendar();
+    SCalendar calendar = new SCalendar();
 
     public static void main(String[] args) {
-        new TRAPSGUIProject();
+        new SGUIProject();
     }
-    public TRAPSGUIProject(){
+    public SGUIProject(){
         WidgetViewer wv = new WidgetViewer();
         //adding a welcome message
         welcome = new JLabel("Welcome to Tabby Recreation and Party Service\n");
