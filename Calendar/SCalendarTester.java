@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TRAPSCalendarTester {
+public class SCalendarTester {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i = 0;
         System.out.println("How many events will you enter? ");
         int numstr = sc.nextInt();
-        TRAPSCalendar tc= new TRAPSCalendar();
+        SCalendar tc= new SCalendar();
         System.out.println("Enter event name " + (i +1)+ ":");
         String name = sc.nextLine();
         System.out.print("Enter event venue " + (i +1)+ ":");
